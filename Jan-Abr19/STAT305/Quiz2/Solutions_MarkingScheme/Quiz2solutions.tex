@@ -54,21 +54,22 @@ log(L(\theta)) = nlog{\theta} + (\theta-1)log(\prod y_i) =
 nlog{\theta} + (\theta-1)\sum log(y_i)
 $ \\
 
-d) I will not use partial derivatives notation as the questions uses $L(\theta)$.
+d) I will simplify notation a bit and use simple derivative notation as the questions uses $L(\theta)$: \\
 $
 dl/d\theta = \frac {n}{\theta} + \sum log(y_i)
-$
+$ \\
 
+Setting the derivative equal to 0: \\
 $
 \hat{\theta} = \frac{n}{- \sum log(y_i)}
 $ \textbf{[2]}\textbf{ [-1 if $\theta$ instead of $\hat{\theta}$] }\\
 
 $
 d^2l/d\theta^2 = \frac{-n}{\theta^2} <0
-$ for all theta. In particular, $d^2l/d\theta^2 < 0$ at $\theta = \hat{theta} $ \textbf{[1] }\\
+$ for all $\theta$. In particular, $d^2l/d\theta^2 < 0$ at $\theta = \hat{\theta} $ \textbf{[1] }\\
 
-e) We don't know the distribution of $\tilde{\theta} $, or 
-$Var(\tilde{\theta})$ is not a linear combination of $Y_i$. \\
+e) We don't know the distribution of $\tilde{\theta} $ and
+$Var(\tilde{\theta})$ is not a linear combination of $Y_i$. [Either is OK] \\
 
 f)$
 - d^2l/d\theta^2 = \frac{n}{\theta^2} 
